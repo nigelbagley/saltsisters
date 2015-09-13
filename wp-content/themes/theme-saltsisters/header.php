@@ -9,6 +9,10 @@
 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
 
   <?php wp_head(); ?>
 </head>
@@ -17,6 +21,7 @@
 <body <?php body_class(); ?>>
 
 <header>
+  
   <div class="container flexContainer">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
@@ -29,5 +34,6 @@
       'theme_locations' => 'primary'
     )); ?>
   </div> <!-- /.container -->
+  <div class="bg transition"></div>
 </header><!--/.header-->
 

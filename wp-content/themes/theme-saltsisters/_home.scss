@@ -1,0 +1,54 @@
+.home-page-hero{
+	background-image: url(img/beach-background-3.jpeg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+.main-items{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:row;
+}
+
+.item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:column;
+	padding:25px;
+		.fa-3x{
+			margin: auto;
+			color: #FBB040;
+		}
+		p{
+			text-align: center;
+			// font-size: 13px;
+		}
+		a{
+			margin: auto;
+			color: #FCB040;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 15px;
+			&:hover{
+				color:#C94455;
+			}
+		}
+}
+.about-section{
+	width: 57%;
+	margin: auto;
+	text-align: center;
+}
+.nav-container{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
