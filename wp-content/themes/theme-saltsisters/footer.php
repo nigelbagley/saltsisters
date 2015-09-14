@@ -1,6 +1,19 @@
 <footer>
   <div class="container">
-    <p>&copy; Salt Sisters <?php echo date('Y'); ?></p>
+	  <div class="footer-container flex">
+	  		<div class="footer-copy">		
+		    	<p>&copy; Salt Sisters <?php echo date('Y'); ?></p>
+		    	<p><a href="#">Terms & Conditions</a></p>
+		    	<p><a href="#">Privacy Policy</a></p>
+		    	<p><a href="#">Contact Us</a></p>
+	    	</div>
+	    	<div class="footer-social">
+	    		<a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+	    		<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+	    		<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+	    		<a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+	    	</div>
+	   </div>
   </div>
 </footer>
 <script>

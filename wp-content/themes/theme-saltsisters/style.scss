@@ -25,7 +25,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 img {
-  max-width:100%;
+  // max-width:100%;
 }
 
 /* Global Classes / Wordpress Specific */
@@ -159,6 +159,8 @@ footer {
   ul.menu {
     margin:0;
     padding:0;
+    position: relative;
+    top: -9px
   }
     ul.menu li {
       display:inline;
@@ -308,6 +310,12 @@ p.form-allowed-tags, .nocomments { display:none; }
 .comment-meta a:active, .comment-meta a:hover, .reply a:hover, a.comment-edit-link:hover { color:#ff4b33; }
 #respond p, #comments-list ul #respond { margin:0; }
 
+// Main styling
+
+
+
 
 @import '_header.scss';
 @import '_home.scss';
+@import '_about.scss';
+@import '_footer.scss';

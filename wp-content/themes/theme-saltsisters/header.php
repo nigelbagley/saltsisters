@@ -21,7 +21,11 @@
 <body <?php body_class(); ?>>
 
 <header>
-  
+ <!--  <div class="mobile-nav">
+  <input type="checkbox" id="toggle" name="toggle">
+  <label class="mobile"for="toggle"><img src="<?php echo get_template_directory_uri()?>/img/mobile-nav-icon.jpg" height="82" width="82" alt=""></label>
+     
+  </div> -->
   <div class="container flexContainer">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">

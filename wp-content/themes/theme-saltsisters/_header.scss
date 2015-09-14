@@ -16,7 +16,7 @@
 
 .flexContainer{
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       align-items: center;
       flex-direction: space-between;
       justify-content: space-between;
@@ -28,12 +28,14 @@ header{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	// z-index: 99999999999;
+	z-index: 99999999999;
 	h1{
 		background:url("img/saltsisters-logo-transparent.png") no-repeat;
-		// width: 250px;
 		height: 75px;
 		text-indent: -3333px;
+		width: 93px;
+		position: relative;
+		top: -8px;
 	}
 }
 
@@ -57,3 +59,34 @@ header{
 .show {
   opacity: 0.4;
 }
+
+// mobile nav
+// .mobile{
+// 	display: none;
+// 	@media screen and (max-width:400px){
+// 		display: block;
+// 		display: -webkit-flex;
+// 		display: -moz-flex;
+// 		display: -ms-flex;
+// 		display: -o-flex;
+// 		display: flex;
+// 		flex-direction: row-reverse;
+// 		-webkit-flex-direction: row-reverse;
+// 		-moz-flex-direction: row-reverse;
+// 		-ms-flex-direction: row-reverse;
+// 		-o-flex-direction: row-reverse;
+// 	}
+
+// }
+
+// #toggle{
+// 		display: none;
+// 	}
+
+// #toggle:checked + ul.menu{
+// 		// left: 300px;
+// 		// visibility: visible;
+// 		display: block;
+// 		// z-index: 9999999999999999;
+
+// }

@@ -1,0 +1,36 @@
+footer{
+	background-color: black;
+	color: #fff;
+}
+.footer-container{
+	p{
+		padding: 20px;
+	}
+	a{
+		color: #fff;
+		&:hover{
+			color:#D7DF23;
+		}
+	}
+}
+.footer-copy{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:row;
+}
+.footer-social{
+	.fa-2x{
+		&:hover{
+			color: #D7DF23;
+		}
+	}
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

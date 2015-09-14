@@ -13,6 +13,7 @@
 	display: -o-flex;
 	display: flex;
 	flex-direction:row;
+	margin: 56px 0px 56px 0px;
 }
 
 .item{
@@ -46,9 +47,18 @@
 	width: 57%;
 	margin: auto;
 	text-align: center;
+	margin-top: 56px;
+	margin-bottom: 56px;
 }
 .nav-container{
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+.filler-image{
+	background-image: url(img/beach-background.jpeg);
+	background-attachment: fixed;
+	height: 40vh;
+	background-size: cover;
 }
