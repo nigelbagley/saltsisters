@@ -27,7 +27,7 @@ get_header();  ?>
   			<h4>1</h4>
   		</div>
   		<div class="book-now">
-  			<a href="#">Book Now</a>
+  			<a href="http://localhost:8888/saltsisters/?page_id=34">Book Now</a>
   		</div>	
   	</div>
   </div>
@@ -42,30 +42,33 @@ get_header();  ?>
 	</div>
 	<div class="filler-image"></div>
 	<div class="container">
-	<h1>Lorem ipsum dolor sit.</h1>
-	<!-- <p>Lorem ipsum dolor sit amet, consectetur.</p> -->
-		<div class="day-content">
-			<div class="day-containers">
-				<h3>Days 1-2</h3>
-				<h2>Lorem ipsum dolor.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
+		<h1>Lorem ipsum dolor sit.</h1>
+		<!-- <p>Lorem ipsum dolor sit amet, consectetur.</p> -->
+			<div class="day-content">
+				<div class="day-containers">
+					<h3>Days 1-2</h3>
+					<h2>Lorem ipsum dolor.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
+				</div>
+				<div class="day-containers">
+					<h3>Days 3-4</h3>
+					<h2>Lorem ipsum dolor.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
+				</div>
+				<div class="day-containers">
+					<h3>Days 5-6</h3>
+					<h2>Lorem ipsum dolor.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
+				</div>
+				<div class="day-containers">
+					<h3>Days 7-8</h3>
+					<h2>Lorem ipsum dolor.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
+				</div>
 			</div>
-			<div class="day-containers">
-				<h3>Days 3-4</h3>
-				<h2>Lorem ipsum dolor.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
-			</div>
-			<div class="day-containers">
-				<h3>Days 5-6</h3>
-				<h2>Lorem ipsum dolor.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
-			</div>
-			<div class="day-containers">
-				<h3>Days 7-8</h3>
-				<h2>Lorem ipsum dolor.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
-			</div>
-		</div>
+	</div>
+	<div class="filler-image">
+		<h1>"Do or do not. There is no try!"</h1>
 	</div>
 
 

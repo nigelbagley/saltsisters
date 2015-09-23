@@ -71,6 +71,15 @@
 	background-attachment: fixed;
 	height: 40vh;
 	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	h1{
+		margin:auto;
+		color: #fff;
+	}
 }
 .dates-rates{
 	margin-top: 56px;

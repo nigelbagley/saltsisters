@@ -29,7 +29,7 @@
 	flex-direction: row;
 	position: absolute;
 	bottom: 31px;
-	left:9%;
+	left:8%;
 	// align-items:stretch;
 		h3{
 			text-align: center;
@@ -95,6 +95,84 @@
 .container{
 	h1{
 		text-align: center;
+		margin: 0;
 	}
 
 }
+
+// Finalize Page Starts
+.form-trip-one{
+	margin: auto;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.15);
+	padding: 45px;
+	border-radius: 3%;
+	p{
+		color: #000000;
+		text-transform: uppercase;
+		font-family: 'Roboto Slab',serif;
+	}
+	input[type=text]{
+	background-color: rgba(255, 255, 255, 0.52);
+	border: 0;
+	padding: 5px;
+	font-family: 'Open Sans',sans-serif;
+	margin-top: 10px;
+	width: 100%;
+	color: #000000;
+	}
+	input[type=email]{
+		background-color: rgba(255,255,255,0.52);
+		border: 0px;
+		width: 100%;
+		padding: 5px;
+		font-family: 'Open Sans',sans-serif;
+		margin-top: 10px;
+		color: #000000;
+	}
+	input[type=date]{
+		background-color: rgba(255,255,255,0.52);
+		border: 0px;
+		// width: 100%;
+		padding: 5px;
+		font-family: 'Open Sans',sans-serif;
+		margin-top: 10px;
+		color: #000000;
+	}
+	input[type=tel]{
+		background-color: rgba(255,255,255,0.52);
+		border: 0px;
+		width: 100%;
+		padding: 5px;
+		font-family: 'Open Sans',sans-serif;
+		margin-top: 10px;
+		color: #000000;
+	}
+	input[type=submit] {
+	    color: #000000;
+	    background-color: #fff;
+	    border: 0px;
+	    font-family: 'Open Sans',sans-serif;
+	    transition: all 0.5s;
+	    &:hover{
+	    	background-color: #EE2B4B;
+	    	color: #fff;
+	    }
+	}
+	textarea{
+		background-color: rgba(255, 255, 255, 0.52);
+		margin-top: 10px;
+		padding: 5px;
+		border: 0px;
+		font-family: 'Open Sans',sans-serif;
+		color: #000000;
+		width: 100%;
+		// border: 0px;
+	}
+	select{
+		border: 0px;
+		background-color: rgba(255,255,255,0.52);
+	}
+}
+
+// Finalize Page Ends

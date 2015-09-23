@@ -163,7 +163,7 @@ footer {
     margin:0;
     padding:0;
     position: relative;
-    top: -9px
+    top: 9px
   }
     ul.menu li {
       display:inline;
@@ -177,6 +177,7 @@ footer {
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
+        transition: all 0.5s;
         // background:#333;
         // color:white;
         &:hover{
