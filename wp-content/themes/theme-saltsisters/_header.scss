@@ -7,6 +7,10 @@
 		display: flex;
 		list-style: none;
 		flex-direction:row;
+		-webkit-flex-direction:row;
+		-moz-flex-direction:row;
+		-ms-flex-direction:row;
+		-o-flex-direction:row;
 	}
 	a{
 		padding: 10px;
@@ -17,8 +21,17 @@
 .flexContainer{
       display: flex;
       flex-direction: row-reverse;
+      -webkit-flex-direction: row-reverse;
+      -moz-flex-direction: row-reverse;
+      -o-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
       align-items: center;
       flex-direction: space-between;
+      -moz-flex-direction: space-between;
+      -webkit-flex-direction: space-between;
+      -ms-flex-direction: space-between;
+      -o-flex-direction: space-between;
+
       justify-content: space-between;
       z-index: 99999999999999;
 }

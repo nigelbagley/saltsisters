@@ -1,0 +1,100 @@
+
+.winter-page-hero{
+	background-image: url(img/beach-background-8.jpeg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:row;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
+	-ms-flex-direction:row;
+	-o-flex-direction:row;
+	position: relative;
+}
+.dates{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
+	-ms-flex-direction:row;
+	-o-flex-direction:row;
+	flex-direction: row;
+	position: absolute;
+	bottom: 31px;
+	left:9%;
+	// align-items:stretch;
+		h3{
+			text-align: center;
+			margin: 0;
+			font-style: italic;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			background-color: rgb(251, 176, 64);
+			padding: 18px;
+		}
+		h4{
+			text-align: center;
+			margin: 0;
+			padding: 10px;
+			font-family: 'Open Sans', sans-serif;
+			background-color: rgb(255, 255, 255);
+		}
+
+}
+
+.book-now{
+	align-items: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	a{
+		text-transform: uppercase;
+		color: white;
+		font-weight: 300;
+		padding: 43px;
+		background-color: #EE2B4B;
+		&:hover{
+			background-color: #F16775;
+		}
+	}
+}
+.flexDisplay{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.dates-container{
+	width: 57%;
+	margin: auto;
+	margin-top: 56px;
+	margin-bottom: 56px;
+	h1{
+		text-align: center;
+	}
+
+}
+.day-content{
+	width: 60%;
+	margin: auto;
+	p{
+		text-align: left;
+	}
+}
+.container{
+	h1{
+		text-align: center;
+	}
+
+}

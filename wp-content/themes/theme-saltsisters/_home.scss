@@ -49,6 +49,16 @@
 	text-align: center;
 	margin-top: 56px;
 	margin-bottom: 56px;
+	a{
+		margin: auto;
+		color: #FCB040;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 15px;
+		&:hover{
+			color:#C94455;
+		}
+	}
 }
 .nav-container{
 	position: fixed;
@@ -62,3 +72,84 @@
 	height: 40vh;
 	background-size: cover;
 }
+.dates-rates{
+	margin-top: 56px;
+	margin-bottom: 56px;
+	h1{
+		text-align: center;
+	}
+}
+.dates-rates-container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:row;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+
+}
+
+// Dates & Rates starts
+.box{
+	width: 33.33%;
+	height: 300px;
+	margin: 5px;
+	position: relative;
+}
+.content-title{
+	h3{
+		margin: 0;
+	}
+	h4{
+		margin: 0;
+	}
+}
+.days{
+	h3{
+		margin: 0;
+	}
+	h4{
+		margin: 0;
+	}
+}
+.dates-rates-image-winter{
+	background-image: url(img/1.jpg);
+	background-size: contain;
+}
+.dates-rates-image-spring{
+	background-image: url(img/2.jpg);
+	background-size: contain;
+}
+.dates-rates-image-summer{
+	background-image: url(img/5.jpg);
+	background-size: contain;
+}
+.dates-rates-image-fall{
+	background-image: url(img/6.jpg);
+	background-size: contain;
+}
+.dates-rates-content{
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.62);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	-moz-justify-content:space-between;
+	-ms-justify-content:space-between;
+	-o-justify-content:space-between;
+	&:hover{
+		background-color: rgba(251, 176, 64, 0.84);
+	}
+}
+// Dates & Rates Ends

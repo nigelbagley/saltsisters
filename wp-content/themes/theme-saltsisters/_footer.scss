@@ -20,6 +20,10 @@ footer{
 	display: -o-flex;
 	display: flex;
 	flex-direction:row;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
+	-ms-flex-direction:row;
+	-o-flex-direction:row;
 }
 .footer-social{
 	.fa-2x{
@@ -29,8 +33,20 @@ footer{
 	}
 }
 .flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	flex-direction: row;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
+	-ms-flex-direction:row;
+	-o-flex-direction:row;
 	align-items: center;
 	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
 }

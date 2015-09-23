@@ -9,7 +9,11 @@
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
-	-webkit-flex-direction: column;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+	-ms-flex-direction:column;
+	-o-flex-direction:column;
+
 }
 
 // .sisters-container{
@@ -33,8 +37,11 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
+	-ms-flex-direction:row;
+	-o-flex-direction:row;
 	flex-direction:row;
-	-webkit-flex-direction: row;
 	position: relative;
 	h1{
 		text-transform: uppercase;
