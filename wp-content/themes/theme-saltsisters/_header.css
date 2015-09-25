@@ -1,0 +1,65 @@
+/* line 2, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.menu ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row; }
+/* line 15, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.menu a {
+  padding: 10px;
+  background-color: none; }
+
+/* line 21, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.flexContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -o-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  flex-direction: space-between;
+  -moz-flex-direction: space-between;
+  -webkit-flex-direction: space-between;
+  -ms-flex-direction: space-between;
+  -o-flex-direction: space-between;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 99999999999999; }
+
+/* line 39, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999999; }
+
+/* line 58, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.transition {
+  transition: all 1s ease-in-out; }
+
+/* line 64, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.bg {
+  background: #000;
+  width: 100%;
+  height: 100px;
+  opacity: 0;
+  position: absolute;
+  top: 0; }
+
+/* line 72, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
+.show {
+  opacity: 0.4; }

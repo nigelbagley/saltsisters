@@ -29,7 +29,8 @@
   <div class="container flexContainer">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
+        <!-- <?php bloginfo( 'name' ); ?> -->
+        <img src="<?php echo get_template_directory_uri();?>/img/saltsisters-logo-transparent.png" alt="">
       </a>
     </h1>
 

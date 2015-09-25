@@ -16,6 +16,7 @@
 	-o-flex-direction:row;
 	position: relative;
 }
+
 .dates{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -104,9 +105,13 @@
 .form-trip-one{
 	margin: auto;
 	margin: auto;
-	background-color: rgba(255, 255, 255, 0.15);
-	padding: 45px;
-	border-radius: 3%;
+	background-color: rgba(255, 255, 255, 0.29);
+	// padding-left: 45px;
+	// padding-right: 45px;
+	// padding-top: 20px;
+	// padding-bottom: 20px;
+	padding: 20px 45px 20px 45px;
+	// border-radius: 3%;
 	p{
 		color: #000000;
 		text-transform: uppercase;
@@ -174,5 +179,34 @@
 		background-color: rgba(255,255,255,0.52);
 	}
 }
-
+.booking-finalize-hero{
+	background-image: url(img/beach-background-8.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	flex-direction:row;
+}
+.booking-form-container{
+	margin: auto;
+	padding: 76px;
+	h3{
+		    font-family: 'Roboto Slab',serif;
+		    font-size: 45px;
+		    margin-bottom: 10px;
+		    text-transform: uppercase;
+		    color: #000000;
+		    // text-shadow: 2px 0 0px rgba(255, 255, 255, 0.73);
+		}
+}
 // Finalize Page Ends
+.filler-faq-image{
+	background-image: url(img/beach-background-6.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 40vh;
+}
+
+// FAQ Page Starts
+
+
+// FAQ Page Ends

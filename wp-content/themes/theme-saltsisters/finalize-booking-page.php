@@ -8,10 +8,12 @@ get_header();  ?>
 
 <div class="main">
 
-	<div class="winter-page-hero">
+	<div class="booking-finalize-hero">
 	<!-- <h1>Fill yo form out now or lose out on a once and life time trip muthafucka</h1> -->
+	<div class="booking-form-container">
+	<h3>Fill the form out below:</h3>
 		<div class="form-trip-one">
-		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quam?</h3>
+		
 		    <?php // Start the loop ?>
 		    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -20,7 +22,8 @@ get_header();  ?>
 
 		    <?php endwhile; // end the loop?>
 		</div>
-	</div>
+		</div>
+</div>
   <!-- </div> --> <!--/.containter -->
 </div> <!-- /.main -->
 
