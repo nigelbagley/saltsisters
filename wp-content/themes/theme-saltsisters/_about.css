@@ -2,7 +2,7 @@
 .about-page-hero {
   background-image: url(img/beach-background.jpeg);
   background-attachment: fixed;
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
   display: -webkit-flex;
   display: -moz-flex;
