@@ -50,6 +50,10 @@ body {
   max-width:1200px;
   margin:0 auto;
   position: relative;
+  img{
+    position: relative;
+    top: 10px;
+  }
 }
 
 .content {
@@ -181,7 +185,7 @@ footer {
         // background:#333;
         // color:white;
         &:hover{
-          color: #D7DF23;
+          color: #EE2B4B;
         }
       }
 

@@ -40,6 +40,9 @@ get_header();  ?>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores culpa, aut eaque et suscipit reiciendis. Nisi quo nobis quam quos sit quasi minus dolorem voluptas ipsum, repellat laborum, dolor, voluptatibus itaque? Ipsum, accusamus sint atque, doloremque reprehenderit ratione alias, ut repellendus perferendis id eius. Explicabo laboriosam nesciunt, omnis molestiae et optio, accusamus soluta nemo, illum atque, aliquid tenetur natus. Voluptatibus eligendi ratione ipsa, expedita fugiat aliquid consectetur. Soluta nisi, tempora quia voluptatem et eaque adipisci odio consectetur, praesentium tempore ex!</p>
 			<a href="#">Read More</a>
 		</div>
+	</div>
+	<div class="filler-image-sunset"></div>
+	<div class="container">
 		<div class="dates-rates">
 			<h1>Retreat Details</h1>
 			<div class="dates-rates-container">
@@ -55,11 +58,14 @@ get_header();  ?>
 					</div>
 				</div>
 				<div class="dates-rates-image-spring box">
+					
 					<div class="dates-rates-content">
-						<div class="content-title">
-							<h3>Lessons</h3>
-							<!-- <h4>$$$$</h4> -->
-						</div>
+						<a href="http://localhost:8888/saltsisters/?page_id=46">
+							<div class="content-title">
+								<h3>Lessons</h3>
+								<!-- <h4>$$$$</h4> -->
+							</div>
+						</a>
 						<div class="days">
 							<!-- <h4>8 Days</h4>-->
 						</div>

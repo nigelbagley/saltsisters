@@ -14,12 +14,15 @@ get_header();  ?>
 			<h1>Lorem ipsum.</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores culpa, aut eaque et suscipit reiciendis. Nisi quo nobis quam quos sit quasi minus dolorem voluptas ipsum, repellat laborum, dolor, voluptatibus itaque? Ipsum, accusamus sint atque, doloremque reprehenderit ratione alias, ut repellendus perferendis id eius. Explicabo laboriosam nesciunt, omnis molestiae et optio, accusamus soluta nemo, illum atque, aliquid tenetur natus. Voluptatibus eligendi ratione ipsa, expedita fugiat aliquid consectetur. Soluta nisi, tempora quia voluptatem et eaque adipisci odio consectetur, praesentium tempore ex!</p>
 		</div>
-
+	</div>
+		<div class="filler-image-sunset"></div>
+		<div class="container">
 		<div class="sisters-container">
 
 		<div class="sister-image">
 			<img src="<?php bloginfo('template_directory') ?>/img/sisters.jpg" alt="">
 		</div>
+	
 			<div class="sister-header">
 				<h1>The Sisters</h1>
 			</div>

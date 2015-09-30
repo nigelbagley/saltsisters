@@ -16,7 +16,10 @@
 	   </div>
   </div>
 </footer>
+
+
 <script>
+
 	$(window).scroll(function() {
 	// 100 = The point you would like to fade the nav in.
 	  
@@ -40,6 +43,7 @@
 	});
 
 </script>
+
 <script>
 /* Google Analytics! */
  var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID
@@ -49,5 +53,9 @@
 </script>
 
 <?php wp_footer(); ?>
+
+
+<script src="http://alliedwine.dev.kpd-i.com/wp-content/themes/alliedwinegroup/jquery.flexslider.js"></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
 </body>
 </html>

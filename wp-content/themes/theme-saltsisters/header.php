@@ -10,10 +10,11 @@
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-
+  <link rel="<?php bloginfo('template_url'); ?>/jquery.flexslider-min.js">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/flexslider.css" type="text/css" media="screen" />
+  <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
   <?php wp_head(); ?>
 </head>
 
@@ -30,7 +31,7 @@
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <!-- <?php bloginfo( 'name' ); ?> -->
-        <img src="<?php echo get_template_directory_uri();?>/img/saltsisters-logo-transparent.png" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/img/saltsisters-logo-transparent-1.png" alt="">
       </a>
     </h1>
 

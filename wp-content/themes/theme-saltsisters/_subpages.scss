@@ -29,7 +29,7 @@
 	-o-flex-direction:row;
 	flex-direction: row;
 	position: absolute;
-	bottom: 31px;
+	bottom: 100px;
 	left:8%;
 	// align-items:stretch;
 		h3{
@@ -50,7 +50,12 @@
 		}
 
 }
-
+// Booking Page Starts
+.day-container{
+	margin-bottom: 56px;
+	margin-top: 56px;
+}
+// Booking Page Ends
 .book-now{
 	align-items: center;
 	display: -webkit-flex;
@@ -103,8 +108,8 @@
 
 // Finalize Page Starts
 .form-trip-one{
-	margin: auto;
-	margin: auto;
+	// margin: auto;
+	// margin: auto;
 	background-color: rgba(255, 255, 255, 0.29);
 	// padding-left: 45px;
 	// padding-right: 45px;
@@ -187,12 +192,13 @@
 	flex-direction:row;
 }
 .booking-form-container{
-	margin: auto;
+	// margin: auto;
 	padding: 76px;
 	h3{
-		    font-family: 'Roboto Slab',serif;
+		    // font-family: 'Raleway', sans-serif;
+		    font-family: 'Roboto Slab', serif;
 		    font-size: 45px;
-		    margin-bottom: 10px;
+		    margin-bottom: 21px;
 		    text-transform: uppercase;
 		    color: #000000;
 		    // text-shadow: 2px 0 0px rgba(255, 255, 255, 0.73);
@@ -208,5 +214,73 @@
 
 // FAQ Page Starts
 
+.faq-container{
+	width: 58%;
+	margin: 0 auto;
+	margin-top: 56px;
+	margin-bottom: 56px;
+}
 
+#accordions-41 
+.accordions-head {
+		border: 1px solid #cccccc;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    margin-bottom: 10px;
+	    text-align: right;
+		&:hover{
+			background-color:#A7DCE2;
+			border:1px solid #A7DCE2;
+		}
+}
+#accordions-41
+.ui-accordion-header-active {
+	margin-bottom: 0;
+}
+#accordions-41 .accordion-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#accordions-41 .ui-accordion-header-active {
+	border: 1px solid #a7dce2;
+}
 // FAQ Page Ends
+
+// Contact Page Starts
+
+.contact-container{
+	display: flex;
+	flex-direction:row;
+	margin-top: 56px;
+	margin-bottom: 56px;
+}
+.contact-map{
+	margin-right: 20px;
+	h2{
+		margin:0;
+	}
+}
+.contact-info{
+	margin: auto;
+}
+// Contact Page Ends
+// Lesson Page Starts
+.lesson-container{
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	margin-top: 56px;
+	margin-bottom: 56px;
+	margin-left: 56px;
+	margin-right: 56px;
+}
+.lesson-content{
+	h1{
+		text-align: left;
+	}
+}
+.lesson-img{
+	margin-right: 35px;
+}
+// Lesson Page Ends

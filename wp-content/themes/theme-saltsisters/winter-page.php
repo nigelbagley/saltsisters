@@ -42,6 +42,7 @@ get_header();  ?>
 	</div>
 	<div class="filler-image"></div>
 	<div class="container">
+	<div class="day-container">
 		<h1>Lorem ipsum dolor sit.</h1>
 		<!-- <p>Lorem ipsum dolor sit amet, consectetur.</p> -->
 			<div class="day-content">
@@ -66,8 +67,9 @@ get_header();  ?>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aliquid omnis odio numquam cupiditate quasi laboriosam eligendi quas neque itaque.</p>
 				</div>
 			</div>
+		</div>
 	</div>
-	<div class="filler-image">
+	<div class="filler-image-sunset">
 		<h1>"Do or do not. There is no try!"</h1>
 	</div>
 
