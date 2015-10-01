@@ -10,7 +10,10 @@ get_header();  ?>
 
   <div class="home-page-hero"></div>
 	
-	
+	<!-- <video autoplay loop poster="img/22.jpg" id="bgvid">
+        <source src="img_3494.mov" type="video/mov">
+        <source src="polina.mp4" type="video/mp4">
+    </video> -->
 
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

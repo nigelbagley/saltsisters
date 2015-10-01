@@ -45,7 +45,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 99999999999; }
+  z-index: 9; }
 
 /* line 58, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_header.scss */
 .transition {

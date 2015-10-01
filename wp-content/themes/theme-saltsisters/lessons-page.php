@@ -14,37 +14,79 @@ get_header();  ?>
       <li>
       <div class="lesson-container">
           <div class="lesson-img">
-            <img src="<?php bloginfo('template_directory') ?>/img/kitesurfer.jpg" alt="">
+            <?php 
+
+            $image = get_field('lessons_image');
+
+            if( !empty($image) ): ?>
+
+              <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+            <?php endif; ?>
           </div>
           <div class="lesson-content">
-            <h1>Lorem ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tempore sit, soluta totam. Deserunt voluptatum dolorem temporibus atque necessitatibus voluptatibus iure debitis asperiores quia ullam culpa, porro ab sit quidem ad cupiditate. Natus possimus quasi, magnam enim voluptates aliquid asperiores, voluptatum eum voluptate culpa molestiae! Facilis veniam tempora vel nobis dolor fuga, id doloribus sed, possimus ad quaerat, numquam impedit perspiciatis esse totam sunt dolorem quas modi voluptatem mollitia nesciunt soluta expedita doloremque perferendis tenetur? Vitae, at! Aliquam facilis voluptates, deserunt praesentium optio fugit facere sequi minima ullam. Quam inventore voluptatibus quidem repellendus aliquam quo placeat illum amet omnis autem!</p>
+            <h1><?php the_field('lesson_title') ?></h1>
+            <p><?php the_field('lessons_paragraph') ?></p>
           </div>
       </div>
       </li>
       <li>
       <div class="lesson-container">
           <div class="lesson-img">
-            <img src="<?php bloginfo('template_directory') ?>/img/kitesurfer.jpg" alt="">
+            <?php 
+
+            $image = get_field('accomodations_image');
+
+            if( !empty($image) ): ?>
+
+              <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+            <?php endif; ?>
           </div>
           <div class="lesson-content">
-            <h1>Lorem ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tempore sit, soluta totam. Deserunt voluptatum dolorem temporibus atque necessitatibus voluptatibus iure debitis asperiores quia ullam culpa, porro ab sit quidem ad cupiditate. Natus possimus quasi, magnam enim voluptates aliquid asperiores, voluptatum eum voluptate culpa molestiae! Facilis veniam tempora vel nobis dolor fuga, id doloribus sed, possimus ad quaerat, numquam impedit perspiciatis esse totam sunt dolorem quas modi voluptatem mollitia nesciunt soluta expedita doloremque perferendis tenetur? Vitae, at! Aliquam facilis voluptates, deserunt praesentium optio fugit facere sequi minima ullam. Quam inventore voluptatibus quidem repellendus aliquam quo placeat illum amet omnis autem!</p>
+            <h1><?php the_field('accomodations_title') ?></h1>
+            <p><?php the_field('accomodations_paragraph') ?></p>
           </div>
       </div>
       </li>
       <li>
     <div class="lesson-container">
         <div class="lesson-img">
-          <img src="<?php bloginfo('template_directory') ?>/img/kitesurfer.jpg" alt="">
+          <?php 
+
+            $image = get_field('activities_image');
+
+            if( !empty($image) ): ?>
+
+              <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+            <?php endif; ?>
         </div>
         <div class="lesson-content">
-          <h1>Lorem ipsum dolor.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tempore sit, soluta totam. Deserunt voluptatum dolorem temporibus atque necessitatibus voluptatibus iure debitis asperiores quia ullam culpa, porro ab sit quidem ad cupiditate. Natus possimus quasi, magnam enim voluptates aliquid asperiores, voluptatum eum voluptate culpa molestiae! Facilis veniam tempora vel nobis dolor fuga, id doloribus sed, possimus ad quaerat, numquam impedit perspiciatis esse totam sunt dolorem quas modi voluptatem mollitia nesciunt soluta expedita doloremque perferendis tenetur? Vitae, at! Aliquam facilis voluptates, deserunt praesentium optio fugit facere sequi minima ullam. Quam inventore voluptatibus quidem repellendus aliquam quo placeat illum amet omnis autem!</p>
+          <h1><?php the_field('activities_title') ?></h1>
+          <p><?php the_field('activities_paragraph') ?></p>
         </div>
     </div>
       </li>
-   
+      <li>
+      <div class="lesson-container">
+          <div class="lesson-img">
+            <?php 
+
+            $image = get_field('menu_image');
+
+            if( !empty($image) ): ?>
+
+              <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+            <?php endif; ?>
+          </div>
+          <div class="lesson-content">
+            <h1><?php the_field('menu_title') ?></h1>
+            <p><?php the_field('menu_paragraph') ?></p>
+          </div>
+      </div>
+      </li>
     </ul>
   </div>
   	<div class="container">
