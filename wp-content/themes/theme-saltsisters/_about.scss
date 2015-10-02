@@ -42,18 +42,41 @@
 	-ms-flex-direction:row;
 	-o-flex-direction:row;
 	flex-direction:row;
-	position: relative;
+	
+	@media screen and (max-width:900px){
+	      flex-direction:column;
+	      align-items:center;
+	      text-align: center;;
+	     	}
+		
 	h1{
 		text-transform: uppercase;
 		font-size: 52px;
 	}
 }
+.sister-image{
+	transition: all 0.5s;
+	img{
+		@media screen and (max-width:600px){
+	      width: 60%;
+	     	}
+	}
+	margin-left: 20px;
+		@media screen and (max-width:1000px){
+	      margin-left: 20px;
+	     	}
+	     	@media screen and (max-width:900px){
+	      margin-left: 0px;
+	     	}
+}
 .sister-header{
-	position: absolute;
-	right: 33%;
+	
 }
 .sister-paragraph{
-	position: relative;
-	top: 112px;
 	margin-left: 20px;
+	margin-right: 20px;
+		@media screen and (max-width:900px){
+	      width: 70%;
+	      text-align: center;
+	     	}
 }

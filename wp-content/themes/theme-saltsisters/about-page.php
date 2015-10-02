@@ -36,11 +36,12 @@ get_header();  ?>
 	     			<?php endif; ?>
 
 	     		</div>
-
+<!-- 
      			<div class="sister-header">
-     				<h1><?php the_field('sisters_title') ?></h1>
-     			</div>
+     				
+     			</div> -->
      			<div class="sister-paragraph">
+                    <h1><?php the_field('sisters_title') ?></h1>
      				<p><?php the_field('sisters_paragraph') ?></p>
      				<p><?php the_field('sisters_paragraph_two') ?></p>
      				<p><?php the_field('sisters_paragraph_three') ?></p>

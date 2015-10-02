@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-	  <div class="footer-container flex">
+	  <div class="footer-container">
 	  		<div class="footer-copy">		
 		    	<p>&copy; Salt Sisters <?php echo date('Y'); ?></p>
 		    	<p><a href="#">Terms & Conditions</a></p>

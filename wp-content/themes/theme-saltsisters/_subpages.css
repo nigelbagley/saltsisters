@@ -17,7 +17,15 @@
   -o-flex-direction: row;
   position: relative; }
 
-/* line 20, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 19, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+.booking-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 24, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .dates {
   display: -webkit-flex;
   display: -moz-flex;
@@ -30,10 +38,16 @@
   -ms-flex-direction: row;
   -o-flex-direction: row;
   flex-direction: row;
-  position: absolute;
-  bottom: 100px;
-  left: 8%; }
-  /* line 35, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media screen and (max-width: 600px) {
+    .dates {
+      left: 4%; } }
+  /* line 44, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .dates h3 {
     text-align: center;
     margin: 0;
@@ -42,7 +56,7 @@
     font-weight: 300;
     background-color: #fbb040;
     padding: 18px; }
-  /* line 44, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 53, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .dates h4 {
     text-align: center;
     margin: 0;
@@ -50,12 +64,15 @@
     font-family: 'Open Sans', sans-serif;
     background-color: white; }
 
-/* line 54, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 63, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .day-container {
   margin-bottom: 56px;
   margin-top: 56px; }
+  /* line 66, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  .day-container h1 {
+    text-align: center; }
 
-/* line 59, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 71, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .book-now {
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -65,19 +82,22 @@
   display: -ms-flex;
   display: -o-flex;
   display: -ms-flexbox;
-  display: flex; }
-  /* line 66, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 79, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .book-now a {
     text-transform: uppercase;
     color: white;
     font-weight: 300;
     padding: 43px;
     background-color: #EE2B4B; }
-    /* line 72, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+    /* line 85, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
     .book-now a:hover {
       background-color: #F16775; }
 
-/* line 77, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 90, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .flexDisplay {
   display: -webkit-flex;
   display: -moz-flex;
@@ -86,39 +106,47 @@
   display: -ms-flexbox;
   display: flex; }
 
-/* line 84, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 97, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .dates-container {
   width: 57%;
   margin: auto;
   margin-top: 56px;
   margin-bottom: 56px; }
-  /* line 89, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  @media screen and (max-width: 600px) {
+    .dates-container {
+      width: 90%; } }
+  /* line 105, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  .dates-container iframe {
+    width: 100%; }
+  /* line 108, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .dates-container h1 {
     text-align: center; }
 
-/* line 94, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 113, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .day-content {
   width: 60%;
   margin: auto; }
-  /* line 97, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  @media screen and (max-width: 600px) {
+    .day-content {
+      width: 79%; } }
+  /* line 119, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .day-content p {
     text-align: left; }
 
-/* line 102, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 124, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .container h1 {
-  text-align: center;
   margin: 0; }
 
-/* line 110, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 132, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .form-trip-one {
   background-color: rgba(255, 255, 255, 0.29);
   padding: 20px 45px 20px 45px; }
-  /* line 120, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 142, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one p {
     color: #000000;
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif; }
-  /* line 125, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 147, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one input[type=text] {
     background-color: rgba(255, 255, 255, 0.52);
     border: 0;
@@ -127,7 +155,7 @@
     margin-top: 10px;
     width: 100%;
     color: #000000; }
-  /* line 134, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 156, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one input[type=email] {
     background-color: rgba(255, 255, 255, 0.52);
     border: 0px;
@@ -136,7 +164,7 @@
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     color: #000000; }
-  /* line 143, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 165, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one input[type=date] {
     background-color: rgba(255, 255, 255, 0.52);
     border: 0px;
@@ -144,7 +172,7 @@
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     color: #000000; }
-  /* line 152, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 174, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one input[type=tel] {
     background-color: rgba(255, 255, 255, 0.52);
     border: 0px;
@@ -153,18 +181,18 @@
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     color: #000000; }
-  /* line 161, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 183, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one input[type=submit] {
     color: #000000;
     background-color: #fff;
     border: 0px;
     font-family: 'Open Sans', sans-serif;
     transition: all 0.5s; }
-    /* line 167, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+    /* line 189, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
     .form-trip-one input[type=submit]:hover {
       background-color: #EE2B4B;
       color: #fff; }
-  /* line 172, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 194, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one textarea {
     background-color: rgba(255, 255, 255, 0.52);
     margin-top: 10px;
@@ -173,12 +201,12 @@
     font-family: 'Open Sans', sans-serif;
     color: #000000;
     width: 100%; }
-  /* line 182, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 204, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .form-trip-one select {
     border: 0px;
     background-color: rgba(255, 255, 255, 0.52); }
 
-/* line 187, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 209, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .booking-finalize-hero {
   background-image: url(img/beach-background-8.jpeg);
   background-attachment: fixed;
@@ -190,10 +218,10 @@
       -ms-flex-direction: row;
           flex-direction: row; }
 
-/* line 194, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 216, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .booking-form-container {
   padding: 76px; }
-  /* line 197, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 219, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .booking-form-container h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 45px;
@@ -201,47 +229,47 @@
     text-transform: uppercase;
     color: #000000; }
 
-/* line 208, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 230, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .filler-faq-image {
   background-image: url(img/beach-background-6.jpeg);
   background-attachment: fixed;
   background-size: cover;
   height: 40vh; }
 
-/* line 217, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 239, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .faq-container {
   width: 58%;
   margin: 0 auto;
   margin-top: 56px;
   margin-bottom: 56px; }
 
-/* line 225, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 247, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 #accordions-41 .accordions-head {
   border: 1px solid #cccccc;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: right; }
-  /* line 231, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 253, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   #accordions-41 .accordions-head:hover {
     background-color: #A7DCE2;
     border: 1px solid #A7DCE2; }
 
-/* line 237, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 259, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 #accordions-41 .ui-accordion-header-active {
   margin-bottom: 0; }
 
-/* line 240, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 262, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 #accordions-41 .accordion-content {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px; }
 
-/* line 245, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 267, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 #accordions-41 .ui-accordion-header-active {
   border: 1px solid #a7dce2; }
 
-/* line 252, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 274, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .contact-container {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -252,18 +280,18 @@
   margin-top: 56px;
   margin-bottom: 56px; }
 
-/* line 258, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 280, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .contact-map {
   margin-right: 20px; }
-  /* line 260, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+  /* line 282, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
   .contact-map h2 {
     margin: 0; }
 
-/* line 264, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 286, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .contact-info {
   margin: auto; }
 
-/* line 269, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 291, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .lesson-container {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -277,10 +305,10 @@
   margin-left: 56px;
   margin-right: 56px; }
 
-/* line 279, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 301, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .lesson-content h1 {
   text-align: left; }
 
-/* line 283, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
+/* line 305, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_subpages.scss */
 .lesson-img {
   margin-right: 35px; }

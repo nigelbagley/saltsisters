@@ -16,7 +16,11 @@
 	-o-flex-direction:row;
 	position: relative;
 }
-
+.booking-container{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
 .dates{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -28,9 +32,14 @@
 	-ms-flex-direction:row;
 	-o-flex-direction:row;
 	flex-direction: row;
-	position: absolute;
-	bottom: 100px;
-	left:8%;
+	align-items:center;
+	justify-content:center;
+	// position: absolute;
+	// bottom: 100px;
+	// left:8%;
+	@media screen and (max-width:600px){
+	       		left: 4%;
+	     	}
 	// align-items:stretch;
 		h3{
 			text-align: center;
@@ -54,6 +63,9 @@
 .day-container{
 	margin-bottom: 56px;
 	margin-top: 56px;
+	h1{
+		text-align: center;
+	}
 }
 // Booking Page Ends
 .book-now{
@@ -63,6 +75,7 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-direction:column;
 	a{
 		text-transform: uppercase;
 		color: white;
@@ -86,6 +99,12 @@
 	margin: auto;
 	margin-top: 56px;
 	margin-bottom: 56px;
+	@media screen and (max-width:600px){
+	       		width: 90%;
+	     	}
+	iframe{
+		width: 100%;
+	}
 	h1{
 		text-align: center;
 	}
@@ -94,13 +113,16 @@
 .day-content{
 	width: 60%;
 	margin: auto;
+	@media screen and (max-width:600px){
+	       		width: 79%;
+	     	}
 	p{
 		text-align: left;
 	}
 }
 .container{
 	h1{
-		text-align: center;
+		// text-align: center;
 		margin: 0;
 	}
 
