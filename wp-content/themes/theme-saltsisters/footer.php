@@ -3,15 +3,13 @@
 	  <div class="footer-container">
 	  		<div class="footer-copy">		
 		    	<p>&copy; Salt Sisters <?php echo date('Y'); ?></p>
-		    	<p><a href="#">Terms & Conditions</a></p>
-		    	<p><a href="#">Privacy Policy</a></p>
-		    	<p><a href="#">Contact Us</a></p>
+		    	<p><a href="http://salt-sisters.com/Salt_Sisters_Terms_and_Conditions.pdf" target="_blank">Terms & Conditions</a></p>
+		    	<p><a href="http://salt-sisters.com/?page_id=22">Contact Us</a></p>
 	    	</div>
 	    	<div class="footer-social">
-	    		<a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
-	    		<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-	    		<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-	    		<a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+	    		<a href="https://www.facebook.com/saltsisterskite" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+	    		<a href="https://instagram.com/saltsisterskite/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+	    		<a href="https://twitter.com/saltsisterskite" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
 	    	</div>
 	   </div>
   </div>
@@ -46,12 +44,15 @@
 
 <script>
 /* Google Analytics! */
- var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID
- (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
- g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
- s.parentNode.insertBefore(g,s)}(document,"script"));
-</script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-68363697-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php wp_footer(); ?>
 
 

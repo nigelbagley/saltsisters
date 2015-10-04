@@ -57,12 +57,10 @@ body {
   right: 1%;
   top: -9px;
   z-index: 9999999999;
-  // a{
-  //   position: relative;
-  //   top: 10px;
-  //   @media screen and (max-width:930px){
-  //     top: -67px;
-  //   }
+   @media screen and (max-width:930px){
+      right: 4%;
+    }
+
   
 }
     
@@ -184,6 +182,7 @@ footer {
       @media screen and (max-width:930px){
         display: none;
         left: 3%;
+        margin-right: 3%;
 
         // flex-direction: column;
         // width: 100%;
@@ -208,12 +207,15 @@ footer {
         font-weight: 300;
         transition: all 0.5s;
         @media screen and (max-width:930px){
-         background-color: rgba(0, 0, 0, 0.43);
+         background-color: #fd1662;
          margin-right: 20px;
-         color: white;
+         color: #fff;
         }
         &:hover{
           color: #fd1662;
+            @media screen and (max-width:930px){
+              color: #000000;
+            }
         }
       }
 .mobile-nav{

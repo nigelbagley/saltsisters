@@ -8,7 +8,7 @@ get_header();  ?>
 
 <div class="main">
 
-  <div class="about-page-hero"></div>
+  <div class="faqs-page-hero"></div>
 	<div class="container">
 	<div class="faq-container">
 	
@@ -23,7 +23,7 @@ get_header();  ?>
 
     </div> <!--about-container-->
   </div> <!--/.containter -->
-  <div class="filler-image-sunset"></div>
+  <div class="faqs-filler"></div>
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>

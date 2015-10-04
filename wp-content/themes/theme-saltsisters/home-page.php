@@ -22,7 +22,7 @@ get_header();  ?>
      	<div class="about-section container-margin">
      		<h1><?php the_field('about_us') ?></h1>
      		<p><?php the_field('about_us_paragraph') ?></p>
-     		<a href="http://localhost:8888/saltsisters/?page_id=17">Read More</a>
+     		<a href="http://salt-sisters.com/about/">Read More</a>
      	</div>
      </div>
 
@@ -33,7 +33,7 @@ get_header();  ?>
     		<h1>Retreat Details</h1>
     		<div class="dates-rates-container">
     			<div class="dates-rates-image-winter box">
-                    <a href="http://localhost:8888/saltsisters/?page_id=46">
+                    <a href="http://salt-sisters.com/retreat-details/">
         				<div class="dates-rates-content">
         					<div class="content-title">
         						<h3>Accomodations</h3>
@@ -42,7 +42,7 @@ get_header();  ?>
                     </a>
     			</div>
     			<div class="dates-rates-image-spring box">
-    				<a href="http://localhost:8888/saltsisters/?page_id=46">
+    				<a href="http://salt-sisters.com/retreat-details/">
         				<div class="dates-rates-content">
         						<div class="content-title">
         							<h3>Lessons</h3>
@@ -51,7 +51,7 @@ get_header();  ?>
                     </a>
     			</div>
     			<div class="dates-rates-image-summer box">
-                    <a href="http://localhost:8888/saltsisters/?page_id=46">
+                    <a href="http://salt-sisters.com/retreat-details/">
         				<div class="dates-rates-content">
         					<div class="content-title">
         						<h3>Activities</h3>
@@ -60,7 +60,7 @@ get_header();  ?>
                     </a>
     			</div>
     			<div class="dates-rates-image-fall box">
-                    <a href="http://localhost:8888/saltsisters/?page_id=46">
+                    <a href="http://salt-sisters.com/retreat-details/">
         				<div class="dates-rates-content">
         					<div class="content-title">
         						<h3>Menu</h3>
@@ -77,22 +77,22 @@ get_header();  ?>
     		<div class="item">
     			<i class="fa fa-calendar-plus-o fa-3x"></i>
     			<p><?php the_field('calendar') ?></p>
-    			<a href="http://localhost:8888/saltsisters/?page_id=61">Learn More</a>
+    			<a href="http://salt-sisters.com/dates-itinerary/">Learn More</a>
     		</div>
     		<div class="item">
     			<i class="fa fa-phone fa-3x"></i>
     			<p><?php the_field('phone') ?></p>
-    			<a href="#">Learn More</a>
+    			<a href="http://salt-sisters.com/contact-us/">Learn More</a>
     		</div>
     		<div class="item">
     			<i class="fa fa-question fa-3x"></i>
     			<p><?php the_field('question') ?></p>
-    			<a href="#">Learn More</a>
+    			<a href="http://salt-sisters.com/faqs/">Learn More</a>
     		</div>
     		<div class="item">
     			<i class="fa fa-plane fa-3x"></i>
     			<p><?php the_field('plane') ?></p>
-    			<a href="http://localhost:8888/saltsisters/?page_id=30">Learn More</a>
+    			<a href="http://salt-sisters.com/prices-inclusions/">Learn More</a>
     		</div>
     	</div>
     </div>
