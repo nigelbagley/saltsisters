@@ -18,9 +18,10 @@ get_header();  ?>
     		<div class="about-section container-margin">
     			<h1><?php the_field('header_one') ?></h1>
     			<p><?php the_field('paragraph_one') ?></p>
+                
     		</div>
     	</div>
-    		<div class="filler-image-sunset"></div>
+    		<div class="filler-image-sisters"></div>
      <div class="container">
      		<div class="sisters-container">
 
@@ -42,13 +43,11 @@ get_header();  ?>
      			</div> -->
      			<div class="sister-paragraph">
                     <h1><?php the_field('sisters_title') ?></h1>
-     				<p><?php the_field('sisters_paragraph') ?></p>
-     				<p><?php the_field('sisters_paragraph_two') ?></p>
-     				<p><?php the_field('sisters_paragraph_three') ?></p>
+                    <p><?php the_content(); ?></p>
      			</div>
      		</div>
      </div>
-     <div class="filler-image"></div>
+     <div class="filler-image-sisters"></div>
 	<div class="container">
 		<div class="about-section">
 		<h1><?php the_field('header_two') ?></h1>
@@ -56,7 +55,7 @@ get_header();  ?>
 		</div>
 	</div>
     <?php endwhile; // end the loop?>
-    <div class="filler-image"></div>
+    <div class="filler-image-sisters"></div>
     
   </div> <!--/.containter -->
 </div> <!-- /.main -->

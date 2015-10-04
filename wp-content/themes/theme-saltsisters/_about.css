@@ -1,8 +1,8 @@
 /* line 1, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
 .about-page-hero {
-  background-image: url(img/beach-background.jpeg);
+  background-image: url(img/sisters-sunset_v2.jpg);
   background-attachment: fixed;
-  height: 60vh;
+  height: 70vh;
   background-size: cover;
   display: -webkit-flex;
   display: -moz-flex;
@@ -15,7 +15,19 @@
   -ms-flex-direction: column;
   -o-flex-direction: column; }
 
-/* line 32, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
+/* line 18, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
+.filler-image-sisters {
+  background-image: url(img/sisters-sunset_v2.jpg);
+  background-attachment: fixed;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
+
+/* line 31, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
 .sisters-container {
   margin-top: 56px;
   margin-bottom: 56px;
@@ -34,12 +46,12 @@
       flex-direction: column;
       align-items: center;
       text-align: center; } }
-  /* line 52, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
+  /* line 51, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
   .sisters-container h1 {
     text-transform: uppercase;
     font-size: 52px; }
 
-/* line 57, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
+/* line 56, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
 .sister-image {
   transition: all 0.5s;
   margin-left: 20px; }
@@ -53,7 +65,7 @@
     .sister-image {
       margin-left: 0px; } }
 
-/* line 75, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
+/* line 74, /Users/nigel__b/Sites/saltsisters/wp-content/themes/theme-saltsisters/_about.scss */
 .sister-paragraph {
   margin-left: 20px;
   margin-right: 20px; }

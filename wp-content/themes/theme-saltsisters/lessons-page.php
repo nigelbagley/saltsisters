@@ -8,7 +8,7 @@ get_header();  ?>
 
 <div class="main">
 
-  <div class="about-page-hero"></div>
+  <div class="lessons-page-hero"></div>
   <div class="flexslider">
     <ul class="slides">
       <li>
@@ -102,7 +102,7 @@ get_header();  ?>
 
      
     </div> <!--/.containter -->
-  <div class="filler-image-sunset"></div>
+  <div class="filler-lesson"></div>
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>

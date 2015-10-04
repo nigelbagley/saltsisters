@@ -1,7 +1,7 @@
 .about-page-hero{
-	background-image: url(img/beach-background.jpeg);
+	background-image: url(img/sisters-sunset_v2.jpg);
 	background-attachment: fixed;
-	height: 60vh;
+	height: 70vh;
 	background-size: cover;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -15,19 +15,18 @@
 	-o-flex-direction:column;
 
 }
+.filler-image-sisters{
+	background-image: url(img/sisters-sunset_v2.jpg);
+	background-attachment: fixed;
+	height: 40vh;
+	background-size: cover;
+	display: flex;
+	/* margin: auto; */
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
 
-// .sisters-container{
-// 	background-image: url(img/sisters.jpg);
-// 	// background-attachment: fixed;
-// 	height: 100vh;
-// 	background-size: cover;
-// 	display: -webkit-flex;
-// 	display: -moz-flex;
-// 	display: -ms-flex;
-// 	display: -o-flex;
-// 	display: flex;
-// 	flex-direction: column;
-// }
 
 .sisters-container{
 	margin-top: 56px;

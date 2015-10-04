@@ -1,7 +1,7 @@
 .home-page-hero{
-	background-image: url(img/beach-background-3.jpeg);
+	background-image: url(img/kitebeach_v2.jpg);
 	background-attachment: fixed;
-	height: 60vh;
+	height: 80vh;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -29,7 +29,7 @@
 	padding:25px;
 		.fa-3x{
 			margin: auto;
-			color: #EE2B4B;
+			color: #fd1662;
 		}
 		p{
 			text-align: center;
@@ -37,12 +37,12 @@
 		}
 		a{
 			margin: auto;
-			color: #FCB040;
+			color: #fd1662;
 			text-transform: uppercase;
 			font-weight: 300;
 			font-size: 15px;
 			&:hover{
-				color:#C94455;
+				color:#fcb040;
 			}
 		}
 }
@@ -58,12 +58,12 @@
 	     	
 	a{
 		margin: auto;
-		color: #FCB040;
+		color: #fd1662;
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 15px;
 		&:hover{
-			color:#C94455;
+			color:#fcb040;
 		}
 	}
 }
@@ -74,7 +74,7 @@
 }
 
 .filler-image{
-	background-image: url(img/beach-background.jpeg);
+	background-image: url(img/kitebeach_v2.jpg);
 	background-attachment: fixed;
 	height: 40vh;
 	background-size: cover;
@@ -87,6 +87,20 @@
 		margin:auto;
 		color: #fff;
 	}
+}
+.paradise-filler-image{
+	background-image: url(img/girl-pool.jpg);
+	background-attachment: fixed;
+	height: 40vh;
+	background-size: cover;
+	display: flex;
+	h1{
+		margin:auto;
+		color: #fff;
+	}
+}
+.filler-blank{
+	height:40vh;
 }
 .filler-image-sunset{
 	background-image: url(img/beach-background-5.jpeg);
@@ -178,7 +192,7 @@
 
 }
 .dates-rates-image-fall{
-	background-image: url(img/66.jpg);
+	background-image: url(img/avocado.jpg);
 	background-size: cover;
 	height: 37vh;
 	    background-repeat: no-repeat;
@@ -202,6 +216,7 @@
 	-o-justify-content:space-between;
 	&:hover{
 		background-color: rgba(251, 176, 64, 0.84);
+		color: #fff;
 	}
 }
 video#bgvid { 
