@@ -2,7 +2,9 @@
 (function($){
 	$(window).load(function() {
 	  $('.flexslider').flexslider({
-	    animation: "slide"
+	    animation: "slide",
+		slideshowSpeed: 28500,
+	    animationSpeed: 1000
 	  });
 	});
 })(jQuery);

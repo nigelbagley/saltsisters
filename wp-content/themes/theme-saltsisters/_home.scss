@@ -5,6 +5,7 @@
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
+	background-position: center center;
 }
 .main-items{
 	display: -webkit-flex;
@@ -27,6 +28,7 @@
 	display: flex;
 	flex-direction:column;
 	padding:25px;
+	align-items:center;
 		.fa-3x{
 			margin: auto;
 			color: #fd1662;
@@ -83,6 +85,7 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	background-position: center center;
 	h1{
 		margin:auto;
 		color: #fff;
@@ -94,6 +97,7 @@
 	height: 40vh;
 	background-size: cover;
 	display: flex;
+	background-position: center center;
 	h1{
 		margin:auto;
 		color: #fff;
@@ -108,6 +112,7 @@
 	height: 40vh;
 	display: flex;
 	/* margin: auto; */
+	background-position: center center;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
@@ -174,28 +179,32 @@
 	background-image: url(img/11.jpg);
 	background-size: cover;
 	height: 37vh;
-	    background-repeat: no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
 
 }
 .dates-rates-image-spring{
 	background-image: url(img/22.jpg);
 	background-size: cover;
 	height: 37vh;
-	    background-repeat: no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
 
 }
 .dates-rates-image-summer{
 	background-image: url(img/55.jpg);
 	background-size: cover;
 	height: 37vh;
-	    background-repeat: no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
 
 }
 .dates-rates-image-fall{
 	background-image: url(img/avocado.jpg);
 	background-size: cover;
 	height: 37vh;
-	    background-repeat: no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
 
 }
 .dates-rates-content{

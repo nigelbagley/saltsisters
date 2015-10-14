@@ -24,7 +24,7 @@ get_header();  ?>
       			<h4><?php the_field('availability_number'); ?></h4>
       		</div>
       		<div class="book-now">
-      			<a href="http://localhost:8888/saltsisters/?page_id=34">Book Now</a>
+      			<a href="http://salt-sisters.com/book-now/">Book Now</a>
       		</div>	
       	</div>
       </div>
@@ -53,7 +53,7 @@ get_header();  ?>
                <p><?php the_field('option_one_paragraph'); ?></p>
              </div>
              <div class="room-button">
-               <a href="#">Book Now</a>
+               <a href="http://salt-sisters.com/book-now/">Book Now</a>
              </div>
            </div>
              <div class="room-option">
@@ -76,7 +76,7 @@ get_header();  ?>
                   <p><?php the_field('option_two_paragraph'); ?></p>
                 </div>
                 <div class="room-button">
-                  <a href="#">Book Now</a>
+                  <a href="http://salt-sisters.com/book-now/">Book Now</a>
                 </div>
               </div>
     		</div>

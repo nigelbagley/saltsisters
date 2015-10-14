@@ -18,13 +18,11 @@ get_header();  ?>
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-     <div class="container">
-     	<div class="about-section container-margin">
-     		<h1><?php the_field('about_us') ?></h1>
-     		<p><?php the_field('about_us_paragraph') ?></p>
-     		<a href="http://salt-sisters.com/about/">Read More</a>
-     	</div>
-     </div>
+        <?php the_content(); ?>
+     		<!-- <h1><?php the_field('about_us') ?></h1> -->
+     		<!-- <p><?php the_field('about_us_paragraph') ?></p> -->
+     		
+    
 
     <?php endwhile; // end the loop?>
 
@@ -36,7 +34,7 @@ get_header();  ?>
                     <a href="http://salt-sisters.com/retreat-details/">
         				<div class="dates-rates-content">
         					<div class="content-title">
-        						<h3>Accomodations</h3>
+        						<h3>Accommodations</h3>
         					</div>
         				</div>
                     </a>
