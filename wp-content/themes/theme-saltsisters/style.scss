@@ -77,12 +77,12 @@ body {
 
 /* links */
 a {
-  color:#BA209B;
+  color:#fd1662;
   text-decoration: none;
 }
 
 a:hover {
-  color: #D424B1;
+  color: #FBB040;
 }
 hr{
   margin: 0;
@@ -131,6 +131,11 @@ dd {
 /*lists*/
 ul li,ol li {
   padding:3px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+
 }
 
 /*PRE*/
